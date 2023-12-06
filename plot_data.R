@@ -1,11 +1,15 @@
 #Script to plot the logistic growth data
+file.choose()
 
-growth_data <- read.csv("???")
+##read in the data
+growth_data <- read.csv("/cloud/project/experiment2.csv")
+growth_data
 
-install.packages("ggplot2")
+##load the ggplot package
 library(ggplot2)
 
-ggplot(aes(t,N), data = ???) +
+##plot time against pop size
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
@@ -15,7 +19,8 @@ ggplot(aes(t,N), data = ???) +
   
   theme_bw()
 
-ggplot(aes(t,???), data = growth_data) +
+##plot the same, but transformed
+ggplot(aes(t, N), data = growth_data) +
   
   geom_point() +
   
@@ -24,3 +29,5 @@ ggplot(aes(t,???), data = growth_data) +
   ylab("y") +
   
   scale_y_continuous(trans='log10')
+
+
