@@ -1,4 +1,4 @@
-#Assignment Questions
+Assignment Questions
 
 1. I used the experiment2.csv file for my analysis.
    The first graph plotted (untransformed) formed an S shaped curve tht had plateaued by t = 1000. A second graph was produced with log transformed data. Log transforming the data can be beneficial because it lessens the impact of extreme values and tends to stabilise variance.
