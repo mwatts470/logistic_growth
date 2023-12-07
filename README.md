@@ -6,6 +6,8 @@ Assignment Questions
 
 2. N(t) = (KN0e^rt)/(K-N0+N0e^rt)
    where N0 = 8.595035, K = 999979341, r = 0.023605, t = 4980
-   N(t)=
+   
+   N(t)= 999979341
 
-3. 
+3. The R script is linked in this repository
+
