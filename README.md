@@ -9,5 +9,7 @@ Assignment Questions
    
    N(t)= 999979341
 
-3. The R script is linked in this repository
+3. The R script is linked in this repository.
+   <img width="778" alt="image" src="https://github.com/mwatts470/logistic_growth/assets/152702616/94c41d00-ab95-4460-b7ac-895966d16682">
+
 
